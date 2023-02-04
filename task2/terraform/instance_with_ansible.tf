@@ -1,4 +1,4 @@
-resource "digitalocean_droplet" "www-1" {
+resource "digitalocean_droplet" "ansible" {
   image = "ubuntu-20-04-x64"
   name = "ansible"
   region = "sfo3"
