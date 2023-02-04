@@ -1,0 +1,7 @@
+1. How would you structure your Terraform project if you have multiple environments and use different cloud providers?
+
+2. Write a Terraform script with the below requirements:
+
+    ● Creates a ubuntu aws ec2-instance
+    ● Install ansible
+    ● Execute an ansible playbook (optional: Use Ansible script from Task #1 or any other )

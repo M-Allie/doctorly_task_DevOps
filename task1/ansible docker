@@ -1,0 +1,1 @@
+Create Ansible playbooks and roles to create locally or remotely a docker stack using docker-compose that runs a .net core application and a database (Postgresql or MySQL)
