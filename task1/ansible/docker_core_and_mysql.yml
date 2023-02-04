@@ -1,0 +1,19 @@
+- hosts: all
+  become: true
+
+  tasks:
+    - name: Run with inline v1 compose
+    - docker_compose:
+        definition:
+          dontnetcore:
+            image: mcr.microsoft.com/dotnet/samples:dotnetapp
+            ports:
+              - 8000:80
+          
+          mysql:
+            image: mysql:8.0
+            environment:
+              - MYSQL_DATABASE=quotes
+              - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
+            ports:
+              - '3306:3306'
