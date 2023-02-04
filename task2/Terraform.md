@@ -15,3 +15,15 @@
     ● Creates a ubuntu aws ec2-instance
     ● Install ansible
     ● Execute an ansible playbook (optional: Use Ansible script from Task #1 or any other )
+
+
+    Setup:
+        https://www.digitalocean.com/community/tutorials/how-to-use-terraform-with-digitalocean
+
+    teraform files:
+        task2\terraform
+
+    terraform plan \
+      -var "do_token=${DO_PAT}" \
+      -var "pvt_key=$HOME/.ssh/id_rsa" 
+
