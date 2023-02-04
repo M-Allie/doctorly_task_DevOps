@@ -15,3 +15,5 @@ If you have multiple Ubuntu prod instances, How would you monitor them? What wou
         Additionally external or service level monitor is needed. An example of this would a system that check http response codes and service responce times.
 
         I would also set up a backup logging method, like running ATOP and saving the files to an NFS server or S3 bucket. 
+
+        Also read: https://www.oreilly.com/library/view/devops-troubleshooting-linux/9780133035513/
