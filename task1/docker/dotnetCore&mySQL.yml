@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+ 
+  dontnetcore:
+    image: mcr.microsoft.com/dotnet/samples:dotnetapp
+    ports:
+      - 8000:80
+ 
+  mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_DATABASE=quotes
+      - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
+    ports:
+      - '3306:3306'
